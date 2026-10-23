@@ -6,7 +6,7 @@ You know JavaScript. In 33 sessions you learn TypeScript the way companies use i
 [![Sessions](https://img.shields.io/badge/sessions-33-3178c6)](#course-outline)
 [![TypeScript 7](https://img.shields.io/badge/TypeScript-7.0-3178c6?logo=typescript&logoColor=white)](#what-you-need)
 [![Tested on Node.js 24](https://img.shields.io/badge/tested%20on-Node.js%2024-339933?logo=node.js&logoColor=white)](#what-you-need)
-[![Published](https://img.shields.io/badge/published-1%20of%2033-f59e0b)](#course-outline)
+[![Published](https://img.shields.io/badge/published-2%20of%2033-f59e0b)](#course-outline)
 [![Free](https://img.shields.io/badge/price-free-16a34a)](#how-to-use-this-course)
 
 ![The course in seven parts, from your first type to a typed Node.js API, followed by the Node.js course](images/01-introduction-to-typescript/learning-path.gif)
@@ -137,7 +137,7 @@ Your first types, the tools, and how to read TypeScript's error messages.
 | #  | Session                                                         | You will learn                                                          |
 | -- | --------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | 01 | [Introduction to TypeScript](01-introduction-to-typescript.md)  | What TypeScript is, why companies use it, compile time vs run time, type erasure |
-| 02 | Setup: Your First TypeScript Project                            | Installing TypeScript, `tsconfig.json`, checking with `tsc`, running with `node` |
+| 02 | [Setup: Your First TypeScript Project](02-setup-and-first-project.md) | Installing TypeScript, `tsconfig.json`, checking with `tsc`, running with `node` |
 | 03 | Basic Types and Type Inference                                  | Type annotations, the primitive types, when TypeScript knows the type by itself |
 | 04 | any, unknown, never and void                                    | The special types, and why `any` is dangerous                           |
 | 05 | Reading TypeScript Errors                                       | The parts of an error, and the 20 errors you will see most              |
@@ -221,7 +221,7 @@ Already know some TypeScript, or revising before an interview? Jump straight to 
 | Topic                                         | Session |
 | --------------------------------------------- | ------- |
 | What TypeScript is, and type erasure          | [01](01-introduction-to-typescript.md) |
-| `tsconfig.json` and the `tsc` command         | 02, 27  |
+| `tsconfig.json` and the `tsc` command         | [02](02-setup-and-first-project.md), 27 |
 | `any` vs `unknown`                            | 04      |
 | Reading error messages like `TS2322`          | 05      |
 | `type` vs `interface`                         | 08      |
@@ -275,6 +275,7 @@ All three courses use the same style, the same words and the same kind of exampl
 ```text
 typescript-basics-to-advanced/
 ├── 01-introduction-to-typescript.md    one file per session
+├── 02-setup-and-first-project.md
 ├── ...
 ├── images/                             animated diagrams, one folder per session
 └── README.md
