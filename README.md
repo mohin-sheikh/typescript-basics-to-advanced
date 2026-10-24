@@ -6,7 +6,7 @@ You know JavaScript. In 33 sessions you learn TypeScript the way companies use i
 [![Sessions](https://img.shields.io/badge/sessions-33-3178c6)](#course-outline)
 [![TypeScript 7](https://img.shields.io/badge/TypeScript-7.0-3178c6?logo=typescript&logoColor=white)](#what-you-need)
 [![Tested on Node.js 24](https://img.shields.io/badge/tested%20on-Node.js%2024-339933?logo=node.js&logoColor=white)](#what-you-need)
-[![Published](https://img.shields.io/badge/published-10%20of%2033-f59e0b)](#course-outline)
+[![Published](https://img.shields.io/badge/published-11%20of%2033-f59e0b)](#course-outline)
 [![Free](https://img.shields.io/badge/price-free-16a34a)](#how-to-use-this-course)
 
 ![The course in seven parts, from your first type to a typed Node.js API, followed by the Node.js course](images/01-introduction-to-typescript/learning-path.gif)
@@ -153,7 +153,7 @@ Describing the data your program works with.
 | 08 | [Type Aliases and Interfaces](08-type-aliases-and-interfaces.md) | Naming types, `type` vs `interface`, extending types                    |
 | 09 | [Union and Literal Types](09-union-and-literal-types.md)         | Values of several types, and exact values like `"pending" \| "paid"`    |
 | 10 | [Narrowing](10-narrowing.md)                                    | How TypeScript follows your `if` checks, discriminated unions           |
-| 11 | null, undefined and Optional Values                             | Strict null checks, `?.`, `??`, and values that may be missing          |
+| 11 | [null, undefined and Optional Values](11-null-undefined-and-optional-values.md) | Strict null checks, `?.`, `??`, and values that may be missing          |
 
 ### Part 3: Functions
 
@@ -231,7 +231,8 @@ Already know some TypeScript, or revising before an interview? Jump straight to 
 | Literal types and literal unions              | [09](09-union-and-literal-types.md) |
 | Discriminated unions                          | [10](10-narrowing.md) |
 | Type guards and exhaustive checks with `never` | [10](10-narrowing.md) |
-| Strict null checks                            | 11      |
+| Strict null checks                            | [11](11-null-undefined-and-optional-values.md) |
+| Optional chaining `?.` and `??` vs `\|\|`  | [11](11-null-undefined-and-optional-values.md) |
 | Function overloads                            | 12      |
 | `as`, `as const` and `satisfies`              | 13      |
 | Generics                                      | 14      |
@@ -288,6 +289,7 @@ typescript-basics-to-advanced/
 ├── 08-type-aliases-and-interfaces.md
 ├── 09-union-and-literal-types.md
 ├── 10-narrowing.md
+├── 11-null-undefined-and-optional-values.md
 ├── ...
 ├── images/                             animated diagrams, one folder per session
 └── README.md
