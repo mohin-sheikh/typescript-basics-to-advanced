@@ -6,7 +6,7 @@ You know JavaScript. In 33 sessions you learn TypeScript the way companies use i
 [![Sessions](https://img.shields.io/badge/sessions-33-3178c6)](#course-outline)
 [![TypeScript 7](https://img.shields.io/badge/TypeScript-7.0-3178c6?logo=typescript&logoColor=white)](#what-you-need)
 [![Tested on Node.js 24](https://img.shields.io/badge/tested%20on-Node.js%2024-339933?logo=node.js&logoColor=white)](#what-you-need)
-[![Published](https://img.shields.io/badge/published-13%20of%2033-f59e0b)](#course-outline)
+[![Published](https://img.shields.io/badge/published-14%20of%2033-f59e0b)](#course-outline)
 [![Free](https://img.shields.io/badge/price-free-16a34a)](#how-to-use-this-course)
 
 ![The course in seven parts, from your first type to a typed Node.js API, followed by the Node.js course](images/01-introduction-to-typescript/learning-path.gif)
@@ -170,7 +170,7 @@ Reusable types, and types built from other types.
 
 | #  | Session                                                         | You will learn                                                          |
 | -- | --------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| 14 | Generics                                                        | Functions and types that work with any type, safely                     |
+| 14 | [Generics](14-generics.md)                                      | Functions and types that work with any type, safely                     |
 | 15 | keyof, typeof and Indexed Access                                | Building types from values and from other types                         |
 | 16 | Enums and Constant Objects                                      | Enums, why Node.js cannot run them, and the modern alternative          |
 | 17 | Utility Types                                                   | `Partial`, `Pick`, `Omit`, `Record` and more, for request and response types |
@@ -237,7 +237,8 @@ Already know some TypeScript, or revising before an interview? Jump straight to 
 | Function overloads                            | [12](12-typing-functions.md) |
 | `as`, `as const` and `satisfies`              | [13](13-assertions-as-const-and-satisfies.md) |
 | Assertion functions (`asserts value is T`)    | [13](13-assertions-as-const-and-satisfies.md) |
-| Generics                                      | 14      |
+| Generics                                      | [14](14-generics.md) |
+| Generic constraints (`T extends ...`)         | [14](14-generics.md) |
 | `keyof` and `typeof`                          | 15      |
 | Enums                                         | 16      |
 | `Partial`, `Pick`, `Omit` and `Record`        | 17      |
@@ -294,6 +295,7 @@ typescript-basics-to-advanced/
 ├── 11-null-undefined-and-optional-values.md
 ├── 12-typing-functions.md
 ├── 13-assertions-as-const-and-satisfies.md
+├── 14-generics.md
 ├── ...
 ├── images/                             animated diagrams, one folder per session
 └── README.md
