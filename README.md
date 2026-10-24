@@ -6,7 +6,7 @@ You know JavaScript. In 33 sessions you learn TypeScript the way companies use i
 [![Sessions](https://img.shields.io/badge/sessions-33-3178c6)](#course-outline)
 [![TypeScript 7](https://img.shields.io/badge/TypeScript-7.0-3178c6?logo=typescript&logoColor=white)](#what-you-need)
 [![Tested on Node.js 24](https://img.shields.io/badge/tested%20on-Node.js%2024-339933?logo=node.js&logoColor=white)](#what-you-need)
-[![Published](https://img.shields.io/badge/published-8%20of%2033-f59e0b)](#course-outline)
+[![Published](https://img.shields.io/badge/published-9%20of%2033-f59e0b)](#course-outline)
 [![Free](https://img.shields.io/badge/price-free-16a34a)](#how-to-use-this-course)
 
 ![The course in seven parts, from your first type to a typed Node.js API, followed by the Node.js course](images/01-introduction-to-typescript/learning-path.gif)
@@ -151,7 +151,7 @@ Describing the data your program works with.
 | 06 | [Arrays and Tuples](06-arrays-and-tuples.md)                    | Typed lists, `readonly` arrays, tuples, and items that may be missing   |
 | 07 | [Object Types](07-object-types.md)                              | Object shapes, optional and readonly properties, structural typing      |
 | 08 | [Type Aliases and Interfaces](08-type-aliases-and-interfaces.md) | Naming types, `type` vs `interface`, extending types                    |
-| 09 | Union and Literal Types                                         | Values of several types, and exact values like `"pending" \| "paid"`    |
+| 09 | [Union and Literal Types](09-union-and-literal-types.md)         | Values of several types, and exact values like `"pending" \| "paid"`    |
 | 10 | Narrowing                                                       | How TypeScript follows your `if` checks, discriminated unions           |
 | 11 | null, undefined and Optional Values                             | Strict null checks, `?.`, `??`, and values that may be missing          |
 
@@ -227,7 +227,8 @@ Already know some TypeScript, or revising before an interview? Jump straight to 
 | Arrays, tuples and `readonly` arrays          | [06](06-arrays-and-tuples.md) |
 | Object types, optional properties, structural typing | [07](07-object-types.md) |
 | `type` vs `interface`                         | [08](08-type-aliases-and-interfaces.md) |
-| Union types and narrowing                     | 09, 10  |
+| Union types and narrowing                     | [09](09-union-and-literal-types.md), 10 |
+| Literal types and literal unions              | [09](09-union-and-literal-types.md) |
 | Discriminated unions                          | 10      |
 | Strict null checks                            | 11      |
 | Function overloads                            | 12      |
@@ -284,6 +285,7 @@ typescript-basics-to-advanced/
 ├── 06-arrays-and-tuples.md
 ├── 07-object-types.md
 ├── 08-type-aliases-and-interfaces.md
+├── 09-union-and-literal-types.md
 ├── ...
 ├── images/                             animated diagrams, one folder per session
 └── README.md
