@@ -6,7 +6,7 @@ You know JavaScript. In 33 sessions you learn TypeScript the way companies use i
 [![Sessions](https://img.shields.io/badge/sessions-33-3178c6)](#course-outline)
 [![TypeScript 7](https://img.shields.io/badge/TypeScript-7.0-3178c6?logo=typescript&logoColor=white)](#what-you-need)
 [![Tested on Node.js 24](https://img.shields.io/badge/tested%20on-Node.js%2024-339933?logo=node.js&logoColor=white)](#what-you-need)
-[![Published](https://img.shields.io/badge/published-21%20of%2033-f59e0b)](#course-outline)
+[![Published](https://img.shields.io/badge/published-22%20of%2033-f59e0b)](#course-outline)
 [![Free](https://img.shields.io/badge/price-free-16a34a)](#how-to-use-this-course)
 
 ![The course in seven parts, from your first type to a typed Node.js API, followed by the Node.js course](images/01-introduction-to-typescript/learning-path.gif)
@@ -185,7 +185,7 @@ Object-oriented TypeScript, as used in frameworks like NestJS.
 | -- | --------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | 20 | [Classes in TypeScript](20-classes.md)                          | Typed fields, `private` vs `#private`, `readonly`, getters and `static` |
 | 21 | [Inheritance, Interfaces and Abstract Classes](21-inheritance-interfaces-abstract-classes.md) | `extends`, `implements`, abstract classes, typed error classes          |
-| 22 | Decorators                                                      | Writing decorators, and reading the ones NestJS uses                    |
+| 22 | [Decorators](22-decorators.md)                                  | Writing decorators, and reading the ones NestJS uses                    |
 
 ### Part 6: Real Programs
 
@@ -251,7 +251,7 @@ Already know some TypeScript, or revising before an interview? Jump straight to 
 | Class fields, getters, `static` and generic classes | [20](20-classes.md) |
 | `private` vs `#private`, abstract classes     | [20](20-classes.md), [21](21-inheritance-interfaces-abstract-classes.md) |
 | Inheritance, `implements` and typed error classes | [21](21-inheritance-interfaces-abstract-classes.md) |
-| Decorators                                    | 22      |
+| Decorators, and reading NestJS decorators     | [22](22-decorators.md) |
 | Typing promises and errors                    | 23      |
 | `.d.ts` files and `@types`                    | 25      |
 | Typing Express requests and Mongoose models   | 31, 32  |
@@ -310,6 +310,7 @@ typescript-basics-to-advanced/
 ├── 19-template-literal-types.md
 ├── 20-classes.md
 ├── 21-inheritance-interfaces-abstract-classes.md
+├── 22-decorators.md
 ├── ...
 ├── images/                             animated diagrams, one folder per session
 └── README.md
