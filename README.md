@@ -6,7 +6,7 @@ You know JavaScript. In 33 sessions you learn TypeScript the way companies use i
 [![Sessions](https://img.shields.io/badge/sessions-33-3178c6)](#course-outline)
 [![TypeScript 7](https://img.shields.io/badge/TypeScript-7.0-3178c6?logo=typescript&logoColor=white)](#what-you-need)
 [![Tested on Node.js 24](https://img.shields.io/badge/tested%20on-Node.js%2024-339933?logo=node.js&logoColor=white)](#what-you-need)
-[![Published](https://img.shields.io/badge/published-19%20of%2033-f59e0b)](#course-outline)
+[![Published](https://img.shields.io/badge/published-20%20of%2033-f59e0b)](#course-outline)
 [![Free](https://img.shields.io/badge/price-free-16a34a)](#how-to-use-this-course)
 
 ![The course in seven parts, from your first type to a typed Node.js API, followed by the Node.js course](images/01-introduction-to-typescript/learning-path.gif)
@@ -183,7 +183,7 @@ Object-oriented TypeScript, as used in frameworks like NestJS.
 
 | #  | Session                                                         | You will learn                                                          |
 | -- | --------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| 20 | Classes in TypeScript                                           | Typed fields, `private` vs `#private`, `readonly`, getters and `static` |
+| 20 | [Classes in TypeScript](20-classes.md)                          | Typed fields, `private` vs `#private`, `readonly`, getters and `static` |
 | 21 | Inheritance, Interfaces and Abstract Classes                    | `extends`, `implements`, abstract classes, typed error classes          |
 | 22 | Decorators                                                      | Writing decorators, and reading the ones NestJS uses                    |
 
@@ -248,7 +248,8 @@ Already know some TypeScript, or revising before an interview? Jump straight to 
 | Mapped and conditional types, `infer`         | [18](18-mapped-and-conditional-types.md) |
 | Writing your own utility types                | [18](18-mapped-and-conditional-types.md) |
 | Template literal types for routes and event names | [19](19-template-literal-types.md) |
-| `private` vs `#private`, abstract classes     | 20, 21  |
+| Class fields, getters, `static` and generic classes | [20](20-classes.md) |
+| `private` vs `#private`, abstract classes     | [20](20-classes.md), 21 |
 | Decorators                                    | 22      |
 | Typing promises and errors                    | 23      |
 | `.d.ts` files and `@types`                    | 25      |
@@ -306,6 +307,7 @@ typescript-basics-to-advanced/
 ├── 17-utility-types.md
 ├── 18-mapped-and-conditional-types.md
 ├── 19-template-literal-types.md
+├── 20-classes.md
 ├── ...
 ├── images/                             animated diagrams, one folder per session
 └── README.md
