@@ -1149,4 +1149,4 @@ When the behaviour is used only once, or when hiding it behind one line makes th
 
 | Previous | All sessions | Next |
 | :--- | :---: | ---: |
-| [21. Inheritance, Interfaces and Abstract Classes](21-inheritance-interfaces-abstract-classes.md) | [Course outline](README.md#course-outline) | [23. Async and Error Handling](23-async-and-error-handling.md) |
+| [21. Inheritance, Interfaces and Abstract Classes](21-inheritance-interfaces-abstract-classes.md) | [Course outline](README.md#course-outline) | [23. Async TypeScript and Error Handling](23-async-and-error-handling.md) |
