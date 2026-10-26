@@ -6,7 +6,7 @@ You know JavaScript. In 33 sessions you learn TypeScript the way companies use i
 [![Sessions](https://img.shields.io/badge/sessions-33-3178c6)](#course-outline)
 [![TypeScript 7](https://img.shields.io/badge/TypeScript-7.0-3178c6?logo=typescript&logoColor=white)](#what-you-need)
 [![Tested on Node.js 24](https://img.shields.io/badge/tested%20on-Node.js%2024-339933?logo=node.js&logoColor=white)](#what-you-need)
-[![Published](https://img.shields.io/badge/published-23%20of%2033-f59e0b)](#course-outline)
+[![Published](https://img.shields.io/badge/published-24%20of%2033-f59e0b)](#course-outline)
 [![Free](https://img.shields.io/badge/price-free-16a34a)](#how-to-use-this-course)
 
 ![The course in seven parts, from your first type to a typed Node.js API, followed by the Node.js course](images/01-introduction-to-typescript/learning-path.gif)
@@ -194,7 +194,7 @@ What every real TypeScript project needs.
 | #  | Session                                                         | You will learn                                                          |
 | -- | --------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | 23 | [Async TypeScript and Error Handling](23-async-and-error-handling.md) | `Promise<T>`, typed `fetch` results, errors in `catch` are `unknown`    |
-| 24 | Modules in TypeScript                                           | `import type`, ES modules and CommonJS, `.ts` imports                   |
+| 24 | [Modules in TypeScript](24-modules.md)                          | `import type`, ES modules and CommonJS, `.ts` imports                   |
 | 25 | Declaration Files and @types                                    | `.d.ts` files, `@types` packages, typing a JavaScript library           |
 | 26 | Runtime Validation with Joi                                     | Checking outside data at run time, and keeping it in line with your types |
 | 27 | tsconfig Deep Dive                                              | Every important setting, and what changed in TypeScript 6 and 7          |
@@ -254,6 +254,7 @@ Already know some TypeScript, or revising before an interview? Jump straight to 
 | Decorators, and reading NestJS decorators     | [22](22-decorators.md) |
 | Typing promises and errors                    | [23](23-async-and-error-handling.md) |
 | `Awaited`, error causes and typed `fetch` results | [23](23-async-and-error-handling.md) |
+| ES modules, barrel files, JSON imports and `import()` | [24](24-modules.md) |
 | `.d.ts` files and `@types`                    | 25      |
 | Typing Express requests and Mongoose models   | 31, 32  |
 
@@ -313,6 +314,7 @@ typescript-basics-to-advanced/
 ├── 21-inheritance-interfaces-abstract-classes.md
 ├── 22-decorators.md
 ├── 23-async-and-error-handling.md
+├── 24-modules.md
 ├── ...
 ├── images/                             animated diagrams, one folder per session
 └── README.md
