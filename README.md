@@ -6,7 +6,7 @@ You know JavaScript. In 33 sessions you learn TypeScript the way companies use i
 [![Sessions](https://img.shields.io/badge/sessions-33-3178c6)](#course-outline)
 [![TypeScript 7](https://img.shields.io/badge/TypeScript-7.0-3178c6?logo=typescript&logoColor=white)](#what-you-need)
 [![Tested on Node.js 24](https://img.shields.io/badge/tested%20on-Node.js%2024-339933?logo=node.js&logoColor=white)](#what-you-need)
-[![Published](https://img.shields.io/badge/published-25%20of%2033-f59e0b)](#course-outline)
+[![Published](https://img.shields.io/badge/published-27%20of%2033-f59e0b)](#course-outline)
 [![Free](https://img.shields.io/badge/price-free-16a34a)](#how-to-use-this-course)
 
 ![The course in seven parts, from your first type to a typed Node.js API, followed by the Node.js course](images/01-introduction-to-typescript/learning-path.gif)
@@ -196,8 +196,8 @@ What every real TypeScript project needs.
 | 23 | [Async TypeScript and Error Handling](23-async-and-error-handling.md) | `Promise<T>`, typed `fetch` results, errors in `catch` are `unknown`    |
 | 24 | [Modules in TypeScript](24-modules.md)                          | `import type`, ES modules and CommonJS, `.ts` imports                   |
 | 25 | [Declaration Files and @types](25-declaration-files-and-types.md) | `.d.ts` files, `@types` packages, typing a JavaScript library           |
-| 26 | Runtime Validation with Joi                                     | Checking outside data at run time, and keeping it in line with your types |
-| 27 | tsconfig Deep Dive                                              | Every important setting, and what changed in TypeScript 6 and 7          |
+| 26 | [Runtime Validation with Joi](26-runtime-validation-with-joi.md) | Checking outside data at run time, and keeping it in line with your types |
+| 27 | [tsconfig Deep Dive](27-tsconfig-deep-dive.md)                  | Every important setting, and what changed in TypeScript 6 and 7          |
 | 28 | Migrating JavaScript to TypeScript                              | Moving a JavaScript project to TypeScript, step by step                 |
 | 29 | Linting, Testing and Debugging                                  | ESLint, tests with Vitest, and debugging TypeScript                     |
 
@@ -221,7 +221,7 @@ Already know some TypeScript, or revising before an interview? Jump straight to 
 | Topic                                         | Session |
 | --------------------------------------------- | ------- |
 | What TypeScript is, and type erasure          | [01](01-introduction-to-typescript.md) |
-| `tsconfig.json` and the `tsc` command         | [02](02-setup-and-first-project.md), 27 |
+| `tsconfig.json` and the `tsc` command         | [02](02-setup-and-first-project.md), [27](27-tsconfig-deep-dive.md) |
 | `any` vs `unknown`                            | [04](04-any-unknown-never-void.md) |
 | Reading error messages like `TS2322`          | [05](05-reading-typescript-errors.md) |
 | Arrays, tuples and `readonly` arrays          | [06](06-arrays-and-tuples.md) |
@@ -257,6 +257,8 @@ Already know some TypeScript, or revising before an interview? Jump straight to 
 | ES modules, barrel files, JSON imports and `import()` | [24](24-modules.md) |
 | `.d.ts` files and `@types`                    | [25](25-declaration-files-and-types.md) |
 | Typing a JavaScript library, `declare module` and `declare global` | [25](25-declaration-files-and-types.md) |
+| Validating request bodies, settings and API data with Joi | [26](26-runtime-validation-with-joi.md) |
+| `strict`, `target`, `lib`, and what changed in TypeScript 6 and 7 | [27](27-tsconfig-deep-dive.md) |
 | Typing Express requests and Mongoose models   | 31, 32  |
 
 ---
@@ -317,6 +319,8 @@ typescript-basics-to-advanced/
 ├── 23-async-and-error-handling.md
 ├── 24-modules.md
 ├── 25-declaration-files-and-types.md
+├── 26-runtime-validation-with-joi.md
+├── 27-tsconfig-deep-dive.md
 ├── ...
 ├── images/                             animated diagrams, one folder per session
 └── README.md
