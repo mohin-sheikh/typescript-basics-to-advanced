@@ -6,7 +6,7 @@ You know JavaScript. In 33 sessions you learn TypeScript the way companies use i
 [![Sessions](https://img.shields.io/badge/sessions-33-3178c6)](#course-outline)
 [![TypeScript 7](https://img.shields.io/badge/TypeScript-7.0-3178c6?logo=typescript&logoColor=white)](#what-you-need)
 [![Tested on Node.js 24](https://img.shields.io/badge/tested%20on-Node.js%2024-339933?logo=node.js&logoColor=white)](#what-you-need)
-[![Published](https://img.shields.io/badge/published-29%20of%2033-f59e0b)](#course-outline)
+[![Published](https://img.shields.io/badge/published-30%20of%2033-f59e0b)](#course-outline)
 [![Free](https://img.shields.io/badge/price-free-16a34a)](#how-to-use-this-course)
 
 ![The course in seven parts, from your first type to a typed Node.js API, followed by the Node.js course](images/01-introduction-to-typescript/learning-path.gif)
@@ -207,7 +207,7 @@ A typed backend from start to finish.
 
 | #  | Session                                                         | You will learn                                                          |
 | -- | --------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| 30 | Node.js with TypeScript                                         | A Node.js project in TypeScript: run in development, build for production |
+| 30 | [Node.js with TypeScript](30-nodejs-with-typescript.md)         | A Node.js project in TypeScript: run in development, build for production |
 | 31 | Express with TypeScript                                         | Typed requests, responses and middleware, `req.user`                    |
 | 32 | MongoDB and Mongoose with TypeScript                            | Typed schemas, models and queries                                       |
 | 33 | Final Project: Task Management API in TypeScript                | A complete, typed and tested REST API                                   |
@@ -262,6 +262,8 @@ Already know some TypeScript, or revising before an interview? Jump straight to 
 | Migrating a JavaScript project, `allowJs` and JSDoc types | [28](28-migrating-javascript-to-typescript.md) |
 | Tests with Vitest, fake fetchers and typed mocks (`vi.fn`) | [29](29-linting-testing-debugging.md) |
 | ESLint with TypeScript 7, source maps and the debugger | [29](29-linting-testing-debugging.md) |
+| A typed `node:http` server, `node --watch` and a build for production | [30](30-nodejs-with-typescript.md) |
+| Testing a server with `fetch`, typed `EventEmitter` events, graceful shutdown | [30](30-nodejs-with-typescript.md) |
 | Typing Express requests and Mongoose models   | 31, 32  |
 
 ---
@@ -326,6 +328,7 @@ typescript-basics-to-advanced/
 ├── 27-tsconfig-deep-dive.md
 ├── 28-migrating-javascript-to-typescript.md
 ├── 29-linting-testing-debugging.md
+├── 30-nodejs-with-typescript.md
 ├── ...
 ├── images/                             animated diagrams, one folder per session
 └── README.md
